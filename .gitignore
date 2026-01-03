@@ -1,0 +1,22 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+myvenv/
+venv/
+env/
+
+# ChromaDB persistence (no longer needed)
+docs/chroma/
+
+# Temporary files
+temp_*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
